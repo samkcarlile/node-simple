@@ -1,0 +1,16 @@
+{
+  "name": "simple-node-starter-template",
+  "version": "1.0.0",
+  "description": "A barebones starter template for a new Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Carlile <samkcarlile@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-config-problems": "^5.0.0"
+  }
+}

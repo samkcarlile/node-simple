@@ -1,0 +1,29 @@
+{
+  // Good general defaults
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+
+  // Turn off VSCode built-in JS/TS validation
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+
+  // ESLint stuff
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Prettier formatting
+  "prettier.singleQuote": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
